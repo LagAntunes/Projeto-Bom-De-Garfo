@@ -1,0 +1,227 @@
+/* Início da formatação do fundo */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: helvetica;
+	font-size: 1em;
+	background: orange;	
+}
+
+/* Fim da formatação do fundo */
+
+/* Início da formatação do cabeçalho */
+
+#cabeçalho {
+	background: url(../imagens/fundo-logo.jpg) no-repeat;
+	text-align: center;
+	padding: 10px;
+	float: left;
+	width: 110%;
+	margin-bottom: 5px;
+}
+
+	/* início da logo */
+		#logo {
+			font-size: 1.7em;
+		}
+
+		#logo h2 {
+			padding: 10px;
+		}
+
+		#logo h6{
+			padding: 5px;
+		}
+
+		#logo h2, #logo h6 {
+			color: #F5F3F3;
+			margin-left: -170px;
+		}
+	/* fim da logo */
+
+	/* início do menu superior */
+
+		#menu-superior li {
+			list-style: none;
+			margin-left: 380px;
+		}
+
+		#menu-superior a {
+			text-decoration: none;
+			float: left;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			background: #81A7BF;
+			padding: 7px 40px;
+			color: #F5F3F3;
+		}
+
+		#menu-superior a:hover {
+			background: #2C5D7B;
+			color: #EEEDCD;
+		}
+	/* fim do menu superior */
+
+/* Fim da formatação do cabeçalho */
+
+/* Início da formatação da área principal */
+
+	#area-princial {
+		background: orange;
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+	#menu-lateral, #área-de-postagem-principal, #área-de-postagem-secundária {
+		margin-top: 10px;
+		float: left;
+	}
+
+	/* Início da formatação do menu lateral */
+
+		#menu-lateral {
+			width: 230px;
+			background: url(../imagens/fundo-itens.jpeg);
+			padding: 5px;
+			margin-right: 20px;
+		}
+
+		#menu-lateral h3, #área-de-postagem-principal h3, #área-de-postagem-secundária h3 {
+			background: #2C5D7B;
+			color: #EEEDCD;
+			padding: 5px;
+			margin-bottom: 10px;
+		}
+
+		#menu-lateral ul {
+			list-style: none;
+		}
+
+		#menu-lateral li {
+			padding: 10px;
+			margin-bottom: 5px;
+			background: #fff;
+		}
+
+		#menu-lateral a {
+			text-decoration: none;
+			padding: 5px 5px;
+			font-weight: bold;
+			color: #2C5D7B;
+			display: block;
+		}
+
+		#menu-lateral li:hover {
+			background:#F79749;			
+			cursor: pointer;
+		}
+
+	/* Fim da formatação do menu lateral */
+
+	/* Início da formatação da área de postagem principal */
+
+		#uma-coluna #área-de-postagem-principal {
+			width: 920px;
+			margin-right: 20px;
+			margin-bottom: 10px;
+		}
+
+		#duas-colunas #área-de-postagem-principal {
+			width: 460px;
+			margin-right: 20px;
+			margin-bottom: 10px;
+		}
+
+		.postagens {
+			background: white;
+			padding: 5px;
+		}
+
+		.fundo {
+			background: url(../imagens/fundo-itens.jpeg);
+			padding: 5px;
+			margin-bottom:10px;
+		}
+
+		a {
+			text-decoration: none;
+			color: orange;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		#mapa {
+			background: white;
+			padding: 5px;
+		}
+
+		#topo {
+			position: sticky;
+			top: 110px;
+			margin-left: 10px;
+		}
+
+		#topo h3 {
+			color: #2C5D7B;
+			background: none;
+			margin-bottom: 1px;
+		}
+
+		#topo input {
+			padding: 5px;
+			margin-left: 10px;
+			margin-bottom: 10px;
+			width: 300px;
+		}
+
+		#topo textarea {
+			padding: 5px;
+			margin-left: 10px;
+			margin-bottom: 10px;
+			width: 300px;
+		}
+
+		#topo button {
+			padding: 5px;
+			margin-left: 10px;
+			margin-bottom: 10px;
+			width: 315px;
+			border-radius: 15px;
+			height: 35px;
+			font-weight: bold;
+			font-size: 1.1em;
+			color: white;
+			background-image: linear-gradient(to right, #DDBD3A, #F7C049, #DDAA3A, #DD913A )
+		}
+
+	/* Fim da formatação da área de postagem principal */
+
+	/* Início da formatação da área de postagem secundária */
+
+		#área-de-postagem-secundária {
+			width: 460px;
+			margin-bottom: 10px;
+		}
+
+	/* Fim da formatação da área de postagem secundária */
+
+/* Fim da formatação da área principal */
+
+/* Início da formatação do rodapé */
+
+	#rodapé {
+		background: #2C5D7B;
+		color: #EEEDCD;
+		clear: both;
+		padding: 15px;
+		text-align: center;
+	}
+
+/* Fim da formatação do rodapé */
+
